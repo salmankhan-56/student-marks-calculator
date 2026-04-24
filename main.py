@@ -1,20 +1,2 @@
-name = input('Enter student name: ')
-marks = []
-for i in range(5):
-    marks.append(float(input(f'Enter mark {i+1}: ')))
-
-total = sum(marks)
-average = total / 5
-
-print('Student:', name)
-print('Total:', total)
-print('Average:', average)
-
-if average >= 90:
-    print('Grade: A')
-elif average >= 75:
-    print('Grade: B')
-elif average >= 50:
-    print('Grade: C')
-else:
-    print('Grade: Fail')
+print("Welcome to student-marks-calculator")
+print("This is the main program file.")
